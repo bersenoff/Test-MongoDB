@@ -17,7 +17,6 @@ import { MongoClient } from "mongodb";
     const secondCollection = db.collection("second");
     const thirdCollection = db.collection("third");
 
-    // потом убрать
     await firstCollection.deleteMany({});
     await secondCollection.deleteMany({});
     await thirdCollection.deleteMany({});
