@@ -10,11 +10,6 @@
       "outDir": "build",
       "baseUrl": "src",
       "pretty": true,
-      "paths": {
-        "@utils": ["Utils/index"],
-        "@api": ["API"],
-        "@db": ["DB"]
-    },
   },
   "include": [
       "src/**/*"
