@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "ts:w": "tsc -w",
+    "ts": "tsc",
+    "prestart": "rm -rf build && tsc",
+    "start": "node build/index.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "@types/mongodb": "^3.6.9",
+    "mongodb": "^3.6.4"
+  }
+}
